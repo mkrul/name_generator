@@ -74,10 +74,9 @@ start
 
 describe "#get_names" do
   it "returns a list of 60 names" do
-    names_list = []
-    all_names = get_names(names_list)
+    names_list = get_names(names_list)
 
-    expect(all_names.count).to eq(60)
+    expect(names_list.count).to eq(60)
   end
 end
 
