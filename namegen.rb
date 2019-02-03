@@ -23,7 +23,7 @@ def start
 end
 
 def get_names(names_list)
-  uri ="https://www.behindthename.com/api/random.json?number=6&key=mi269219498"
+  uri ="https://www.behindthename.com/api/random.json?number=6&key=XXXXXXXXXX"
   puts "Aquiring name data. Please wait..."
   sleep(1)
 
